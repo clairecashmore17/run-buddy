@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* fixes the padding w/ the footer*/
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +11,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
+  /*********HEADER*********/
   /* creating styles for our header parent*/
   header {
       padding: 20px 35px;
@@ -51,4 +54,29 @@ header h1{
     color:#fce138;
     margin: 0;
     display: inline;
+}
+
+
+/*********FOOTER*********/
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+/* apply style to h2 elements */
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/* apply styles to div elements */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+/* apply style to the a elements */
+footer a {
+    color: #024e76;
 }
