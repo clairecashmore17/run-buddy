@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -15,7 +20,35 @@ body {
       color: #fce138;
       margin: 0;
   }
-
+/* adding style to all a elements in header*/
   header a {
+      text-decoration: none;
       color: #fce138;
   }
+
+  /* adding style to nav elements in header */
+  header nav {
+      float: right;
+      margin: 7px 0;
+  }
+
+  /*adding style to the list elements in nav*/
+  header nav ul li {
+      display: inline;
+  }
+
+  /* adding style to the nav lis items a elements */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/*adjusting h1 elements to fit space better*/
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color:#fce138;
+    margin: 0;
+    display: inline;
+}
