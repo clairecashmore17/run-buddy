@@ -22,7 +22,10 @@ body {
       font-size: 36px;
       color: #fce138;
       margin: 0;
+      display: inline;
   }
+
+
 /* adding style to all a elements in header*/
   header a {
       text-decoration: none;
@@ -47,14 +50,7 @@ header nav ul li a {
     font-size: 22px;
 }
 
-/*adjusting h1 elements to fit space better*/
-header h1{
-    font-weight: bold;
-    font-size: 36px;
-    color:#fce138;
-    margin: 0;
-    display: inline;
-}
+
 
 
 /*********FOOTER*********/
@@ -79,4 +75,54 @@ footer div {
 /* apply style to the a elements */
 footer a {
     color: #024e76;
+}
+
+/**********HERO STYLE**************/
+/*This lays out the list items properly*/
+section{
+   padding: 60px;
+}
+.hero{
+    background-image: url("../img/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form{
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: 3px solid #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.form-input {
+    border: 1px soid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom:15px;
+}
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button{
+    color: #fce138;
+    background-color: #024e76;
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
 }
