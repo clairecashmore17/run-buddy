@@ -127,21 +127,29 @@ section{
     border: none;
 }
 
-/**********WHAT WE DO SECTION***********/
-.intro {
-    text-align: center;
-}
 
-.intro h2{
+/******general section title styles choices*******/
+.section-title{
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    border-color: #fce138;
-    /* this corrects the yellow border from reaching far due to it being a block element, not inline.*/
-    display: inline-block; /*inline vs inline block- we still get padding behavior like block elements w/ inline-block*/
+    border-color: #39a6b2;
 }
+.primary-border {
+    border-color: #fce138
+}
+.secondary-border{
+    border-color: #39a6b2;
+}
+
+/**********WHAT WE DO SECTION***********/
+.intro {
+    text-align: center;
+}
+
+
 .intro p{
     line-height: 1.7;
     color:#39a6b2;
@@ -149,4 +157,30 @@ section{
     font-size: 20px;
     /*fixing the center issue(its off to the left before this)*/
     margin: 0 auto;
+}
+
+/**********WHAT YOU DO SECTION**********/
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+.steps div{
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width:15%;
+    margin: 10px 0;
+}
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+.steps p{
+    color: #39a6b2;
+    font-size: 23px;
+}
+.steps span{
+    font-size: 38px;
 }
