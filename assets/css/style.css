@@ -12,6 +12,10 @@
 .text-right {
     text-align: right;
 }
+
+.flex-row {
+    display:flex;
+}
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -174,8 +178,10 @@ section{
 .section-title{
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+   padding-bottom:20px;
+   text-align: center;
+   margin: 0 auto 35px auto;
+   width: 50%;
     border-bottom: 3px solid;
     border-color: #39a6b2;
 }
@@ -187,9 +193,7 @@ section{
 }
 
 /**********WHAT WE DO SECTION***********/
-.intro {
-    text-align: center;
-}
+
 
 
 .intro p{
@@ -199,11 +203,12 @@ section{
     font-size: 20px;
     /*fixing the center issue(its off to the left before this)*/
     margin: 0 auto;
+    text-align: center;
 }
 
 /**********WHAT YOU DO SECTION**********/
 .steps {
-    text-align: center;
+   
     background: #fce138;
 }
 .steps div{
@@ -230,7 +235,7 @@ section{
 /**********TRAINERS SECTION*************/
 
 .trainers {
-    text-align: center;
+    
 }
 .trainer{
     width: 900px;
@@ -269,7 +274,7 @@ section{
 /********REACH OUT SECTION******/
 .contact{
     background-color: #024e76;
-    text-align: center;
+    
 }
 .contact h2{
     color:#fce138;
